@@ -1,10 +1,10 @@
 <?php
 // Connects to Database 
-$con = mysql_connect("localhost","root","Shop!1856");
+$con = mysql_connect("connection","user","password");
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());
   }
-// Select "spend" database
-mysql_select_db("spend", $con);
+// Select database
+mysql_select_db("db", $con);
 ?>
