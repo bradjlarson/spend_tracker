@@ -9,6 +9,8 @@ I used a library called pChart to create charts of my spending habits:
 - Monthly
 - Type of spending
 - Category
-- Etc...
+- Amount
+- Location
+- And a few others
 
 I used this instead of a service like Mint because I was able to capture custom attributes, and because I wanted to make sure it worked. 
